@@ -1,0 +1,18 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: microservice-config
+  profiles:
+    active: git
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/AybukeNr/microservice-config.git"
+          default-label: "main" #hangi branchte
+          skip-ssl-validation: true
+          username: "AybukeNr"
+          password: ${GIT_KEY}

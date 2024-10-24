@@ -1,0 +1,30 @@
+ext {
+    versions = [
+            springBoot          : '3.3.4',  // En güncel Spring Boot sürümü
+            springCloud         : '4.1.2', // En güncel Spring Cloud sürümü
+            postgreSQL          : '42.7.4',  // En güncel PostgreSQL JDBC sürümü
+            lombok              : '1.18.34', // En güncel Lombok sürümü
+            swagger             : '2.6.0',   // En güncel SpringDoc Swagger sürümü
+            mysql               : '8.0.33'    // En güncel MySQL sürümü
+    ]
+
+    libs = [
+            springBootStarterWeb            : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            springBootDataJpa               : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootDataRedis             : "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBoot}",
+            springCloudStarterOpenFeign     : "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
+            springCloudConfig               : "org.springframework.cloud:spring-cloud-starter-config:${versions.springCloud}",
+            springCloudConfigServer         : "org.springframework.cloud:spring-cloud-config-server:${versions.springCloud}",
+            springCloudConfigClient         : "org.springframework.cloud:spring-cloud-config-client:${versions.springCloud}",
+            springBootDataMongo             : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
+            postgreSQL                      : "org.postgresql:postgresql:${versions.postgreSQL}",
+            mysql                           : "com.mysql:mysql-connector-j:${versions.mysql}",
+            lombok                          : "org.projectlombok:lombok:${versions.lombok}",
+            swaggerui                       : "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
+            actuator                        : "org.springframework.boot:spring-boot-starter-actuator:${versions.springBoot}",
+            springBootValidation            : "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
+            springBootStarterDevTools       : "org.springframework.boot:spring-boot-devtools:${versions.springBoot}",
+            springCloudBus                  : "org.springframework.cloud:spring-cloud-starter-bus-amqp:${versions.springCloud}",
+            springCloudConfigMonitor        :  "org.springframework.cloud:spring-cloud-config-monitor:${versions.springCloud}"
+    ]
+}

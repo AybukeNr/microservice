@@ -1,0 +1,6 @@
+rootProject.name = 'microserviceDemo'
+include 'accounts'
+include 'cards'
+include 'loans'
+include 'ConfigServer'
+
