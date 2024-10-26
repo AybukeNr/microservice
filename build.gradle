@@ -44,10 +44,10 @@ allprojects {
         }
     }
     dependencies {
-        implementation libs.springBootStarterWeb
         implementation libs.actuator
         implementation libs.swaggerui
         implementation libs.springBootValidation
+        implementation libs.springCloudConfig
         developmentOnly libs.springBootStarterDevTools
 
     }

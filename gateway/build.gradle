@@ -1,0 +1,6 @@
+dependencies {
+    implementation libs.gateway
+    implementation libs.eurekaClient
+
+}
+

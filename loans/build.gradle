@@ -1,7 +1,10 @@
 dependencies {
     implementation libs.springBootDataJpa
+    implementation libs.springBootStarterWeb
     implementation libs.mysql
     implementation libs.lombok
+    implementation libs.eurekaClient
     annotationProcessor libs.lombok
+
 
 }

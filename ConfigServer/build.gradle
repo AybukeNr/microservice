@@ -2,4 +2,6 @@ dependencies {
     implementation libs.springCloudConfig
     implementation libs.springCloudConfigServer
     implementation libs.actuator
+    implementation libs.springBootStarterWeb
+
 }

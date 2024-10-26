@@ -3,4 +3,6 @@ include 'accounts'
 include 'cards'
 include 'loans'
 include 'ConfigServer'
+include 'eurekaserver'
+include 'gateway'
 
